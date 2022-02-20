@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import Button from './Button';
-import PText from './PText';
-import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import React from "react";
+import styled from "styled-components";
+import Button from "./Button";
+import PText from "./PText";
+import SectionTitle from "./SectionTitle";
+import AboutImg from "../assets/images/nattapon.png";
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -31,6 +31,7 @@ const AboutSectionStyles = styled.div`
     gap: 2rem;
     margin-top: 2rem;
   }
+  
   @media only screen and (max-width: 950px) {
     .aboutSection__left {
       flex: 4;
@@ -75,14 +76,10 @@ export default function AboutSection() {
     <AboutSectionStyles>
       <div className="container">
         <div className="aboutSection__left">
-          <SectionTitle
-            subheading="Let me introduce myself"
-            heading="About Me"
-          />
-          <PText>
-            I am a freelance website designer and developer from Chittagong,
-            Bangladesh. I create professional websites. I love art and always
-            try to show unique views to the audience through my design.
+          <SectionTitle subheading="" heading="About Me" />
+          <PText className="info">
+            My name is Nattapon Khajornkasirat I am currently studying at
+            Thammasat University with a major in software engineering.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

@@ -1,46 +1,31 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import KruChana from '../images/KruChana.jpg';
+import OneForAll from '../images/OneForAll.jpg';
+import FaceRegcognition from '../images/FaceReg.jpg';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Kru Chana',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'The mobile application is used by teachers and students to manage teaching and learning online.',
+    img: KruChana,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'One For All',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'The application helps as a intermediate of communication between volunteers and people affected by COVID-19, which is used on websites and mobile applications.',
+    img: OneForAll,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Face Recognition Website',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'The website is used to verify that a student\'s face matches the face on their student card.',
+    img: FaceRegcognition,
   },
-  {
-    id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
-  },
+  
 ];
 
 export default projects;

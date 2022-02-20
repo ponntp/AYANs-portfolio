@@ -19,7 +19,7 @@ const ContactSectionStyle = styled.div`
     content: '';
     width: 2px;
     height: 50%;
-    background-color: var(--gray-1);
+    background-color: #F05454;
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
@@ -58,9 +58,9 @@ export default function ContactSection() {
         <SectionTitle heading="contact" subheading="get in touch" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+8801231" />
-            <ContactInfoItem icon={<MdEmail />} text="webcifar@gmail.com" />
-            <ContactInfoItem text="Chittagong, Bangladesh" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="+669431161" />
+            <ContactInfoItem icon={<MdEmail />} text="nathapon1161@gmail.com" />
+            <ContactInfoItem text="Nakhon Sawan, Thailand" />
           </div>
           <div className="right">
             <ContactForm />

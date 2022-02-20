@@ -4,8 +4,8 @@ import FooterCol from './FooterCol';
 import PText from './PText';
 
 const FooterStyle = styled.div`
-  background-color: var(--deep-dark);
-  padding-top: 10rem;
+  background-color: #30475E;
+  padding-top: 10rem;#30475E
   .container {
     display: flex;
     gap: 3rem;
@@ -23,7 +23,7 @@ const FooterStyle = styled.div`
     margin-bottom: 1rem;
   }
   .copyright {
-    background-color: var(--dark-bg);
+    background-color: #222831;
     text-align: left;
     padding: 1rem 0;
     margin-top: 5rem;
@@ -57,11 +57,9 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Nattapon Khajornkasirat</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+          I'm a Software Engineer student at Thammasat University.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,17 +94,14 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+66918431161',
+                path: 'tel:+66918431161',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'nathapon1161@gmail.com',
+                path: 'mailto:nathapon1161@gmail.com',
               },
-              {
-                title: 'GEC Circle, Chittagong, Bangladesh',
-                path: 'http://google.com/maps',
-              },
+              
             ]}
           />
         </div>
@@ -116,15 +111,12 @@ export default function Footer() {
             links={[
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
+                path: 'https://web.facebook.com/pon.nattapon.12/',
               },
-              {
-                title: 'Twitter',
-                path: 'http://twitter.com',
-              },
+              
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/ntppon/',
               },
             ]}
           />
@@ -133,10 +125,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
+            © 2022 - Nattapon Khajornkasirat 
           </PText>
         </div>
       </div>

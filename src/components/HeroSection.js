@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
-import Button from './Button';
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
-import PText from './PText';
+import React from "react";
+import styled from "styled-components";
+import ProfileImg from "../assets/images/sec.png";
+import Button from "./Button";
+import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
+import PText from "./PText";
 
 const HeroStyles = styled.div`
   .hero {
@@ -18,7 +18,7 @@ const HeroStyles = styled.div`
     position: relative;
   }
   .hero__heading {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: -4rem;
     position: relative;
     span {
@@ -26,9 +26,9 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
-      font-size: 7rem;
-      color: var(--white);
+      font-family: "Montserrat SemiBold";
+      font-size: 5rem;
+      color: white;
     }
   }
   .hero__img {
@@ -36,7 +36,8 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
+    border: 2px solid #F05454;
+    margin-top: 5rem;
   }
   .hero__info {
     margin-top: -18rem;
@@ -100,14 +101,15 @@ const HeroStyles = styled.div`
       min-height: 750px;
     }
     .hero__heading {
-      font-size: 1.4rem;
-      margin-bottom: -3rem;
+      font-size: 2.5rem;
+      margin-bottom: 4rem;
       .hero__name {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
       }
     }
     .hero__img {
       height: 300px;
+      margin-top: 3rem;
     }
     .hero__info {
       margin-top: 3rem;
@@ -153,69 +155,11 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span>Hello, My name is</span>
+            <span className="hero__name">Nattapon Khajornkasirat</span>
           </h1>
           <div className="hero__img">
-            <img src={HeroImg} alt="" />
-          </div>
-          <div className="hero__info">
-            <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
-            </PText>
-            <Button btnText="see my works" btnLink="/projects" />
-          </div>
-          <div className="hero__social">
-            <div className="hero__social__indicator">
-              <p>Follow</p>
-              <img src={SocialMediaArrow} alt="icon" />
-            </div>
-            <div className="hero__social__text">
-              <ul>
-                <li>
-                  <a
-                    href="http://facebook.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    FB
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LI
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="hero__scrollDown">
-            <p>Scroll</p>
-            <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
+            <img src={ProfileImg} alt="" />
           </div>
         </div>
       </div>
